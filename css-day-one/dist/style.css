@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+.frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: -200px;
+  margin-left: -200px;
+  border-radius: 2px;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  color: #333;
+  font-family: "Courier Prime", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(50deg, #23a6d5, #23d5ab);
+}
+
+.center {
+  width: 60%;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+  transform: translate(-50%, -50%);
+}
+
+.number {
+  position: relative;
+  width: 100%;
+  height: 115px;
+}
+
+.um-a {
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 25px;
+  height: 50px;
+  background-color: #FFF;
+  border-radius: 4px;
+  transform: rotate(45deg);
+  z-index: 300;
+}
+
+.um-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 100%;
+  background-color: #FFF;
+  border-radius: 4px;
+  z-index: 400;
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dois-a {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: calc(130px / 2);
+  height: calc(130px / 2);
+  background-color: none;
+  border: 26px solid #FFF;
+  border-radius: 50%;
+  z-index: 200;
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dois-b {
+  position: absolute;
+  top: 0;
+  left: 120px;
+  width: calc(130px / 2);
+  height: calc(130px / 2);
+  background-color: none;
+  border: 26px solid #FFF;
+  border-radius: 50%;
+  z-index: 100;
+  box-shadow: 0px 0px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.p-um {
+  margin-left: -4px;
+  margin-top: -10px;
+  font-size: 96px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFF;
+}
+
+.p-dois {
+  margin-left: -4px;
+  margin-top: -25px;
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #FFF;
+}
